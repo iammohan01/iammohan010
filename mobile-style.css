@@ -1,5 +1,5 @@
 @media (max-width:500px){
-    *{
+    html , body{
         margin: 0%;
         padding: 0%;
         /* background-color: red; */
@@ -51,7 +51,7 @@
     .main-me p:nth-child(3){
         font-family: 'Poiret One', cursive;
         position: relative;
-        left: 12%;
+        left: 10%;
         width: 70%;
 
     }
@@ -63,6 +63,7 @@
         align-items: center;
         color: #AAC4FF;
         font-family: 'Reem Kufi Ink', sans-serif;
+        text-decoration: underline;
         
     }
     .about-me{
@@ -71,5 +72,39 @@
         text-align: center;
         font-family: 'Poppins', sans-serif;
         color: #B1B2FF;
+    }
+    .job{
+        color: #AAC4FF;
+        font-family: 'Reem Kufi Ink', sans-serif;
+        text-align: center;
+        
+    }
+    .job-title1{
+        text-decoration: underline;
+    }
+    .zs h4,.ce h4 {
+        margin: 20px;
+        text-decoration:none;
+        color: inherit;
+        border-top: 1px dashed black;
+    }
+    .zs a{
+        color: inherit;
+        text-decoration: inherit;
+    }
+    .zs a:focus{
+        color: black;
+    }
+    .whatilearning{
+        
+        width: 50%;
+        /* border : 1px solid black; */
+        text-align: start;
+        margin: auto;
+
+    }
+    .ce p{
+        margin: 10px 20px;
+
     }
 }
