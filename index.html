@@ -4,26 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="mobile-style.css">
+    
     <link rel="preconnect" media="screen" href="https://static-fonts-css.strikinglycdn.com" crossorigin="true">
     <title>Mohanasundaram J ,TECH student </title>
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kodchasan&family=Poiret+One&family=Poppins:wght@200&family=Reem+Kufi+Ink&display=swap');
+    </style>
 </head>
 <body>
+    
     <div class="main-out">
         <div class="mainpage">
             <div class="main-me">
                 <p>Hey I'm</p>
                 <p>Mohanasundaram.</p>
-                <p class="job-title">Technology Student at ZOHO schools</p>
+                
+                <p class="job-title"><span class="typing"></span></p>
+                    
+                <!-- Typing animation -->
+                    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                   
+                   <script>
+                        var typed = new Typed(".typing",{
+                    strings : ["Technology Student at ZOHO schools..", "Web developer..","App developer.."],
+                    typeSpeed : 10 ,
+                    backSpeed : 50 ,
+                    loop : true
+                })
+                    </script>
             </div>
             <img src="main-me.jpg.jpg" alt="">
         </div>
     </div>
+    
     <div class="myjourney">
         <h2><strong>- - - My journey - - -</strong></h2>
+        
         <p class="about-me">I'm Mohanasundaram . From small village near Arakkonam </p>
         <h3 class="job-title1">Technology Student : Zoho Schools </h3>
     </div>
+    
+    
+
+    <span class="typetest"></span>
+
+  
+  
     
 </body>
 </html>

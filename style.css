@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Kodchasan&family=Poiret+One&family=Poppins:wght@200&family=Reem+Kufi+Ink&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -47,7 +47,7 @@ html{
 }
 
 .main-me p:nth-child(3){
-    opacity:0 ;
+    opacity:1 ;
     transition: 0.5s opacity ;
     font-family: 'Poiret One', cursive;
     font-size: 35px;
@@ -55,10 +55,7 @@ html{
     transition-delay: 0.2s;
 
 }
-.main-me p:nth-child(2):hover + p:nth-child(3){
-    opacity: 1;
-    
-}
+
 
 
 .main-out img{
@@ -100,4 +97,5 @@ html{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+
 

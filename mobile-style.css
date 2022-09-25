@@ -1,0 +1,75 @@
+@media (max-width:500px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        /* background-color: red; */
+        /* border: 1px soild black; */
+    }
+    html{
+        background-color: #EEF1FF;
+    }
+    .main-out{
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        background-color: #D2DAFF;
+        /* border: 1px solid black; */
+    }
+    .main-out img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px #B1B2FF solid;
+        position: absolute;
+        top: 40px;
+        margin: 20px;
+    }
+    .main-me{
+        position: relative;
+        /* border: 1px solid black; */
+        top: 250px;
+
+    }
+    .main-me p:nth-child(1){
+
+        font-family: 'Poiret One', cursive;
+        /* border: 1px solid black; */
+        width: 70%;
+        position: relative;
+        left: 10%;
+    }
+    .main-me p:nth-child(2){
+
+        font-family: 'Reem Kufi Ink', sans-serif;
+        color: #B1B2FF;
+        /* border: 1px solid black; */
+        font-size: 30px;
+        width: 70%;
+        position: relative;
+        left: 10%;
+    }
+    .main-me p:nth-child(3){
+        font-family: 'Poiret One', cursive;
+        position: relative;
+        left: 12%;
+        width: 70%;
+
+    }
+    .myjourney h2{
+        /* border: 1px solid black; */
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #AAC4FF;
+        font-family: 'Reem Kufi Ink', sans-serif;
+        
+    }
+    .about-me{
+        /* border: 1px solid black; */
+        margin: 20px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: #B1B2FF;
+    }
+}
