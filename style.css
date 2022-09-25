@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
     /* background-color: red; */
     /* border: 1px soild black; */
 }
@@ -12,7 +13,6 @@ html{
     height: 50vh;
     position: relative;
     background-color: #D2DAFF;
-    /* border: 1px solid black; */
 }
 .main-out img{
     width: 150px;
@@ -25,37 +25,37 @@ html{
 }
 .main-me{
     position: relative;
-    /* border: 1px solid black; */
     top: 250px;
 
 }
 .main-me p:nth-child(1){
 
     font-family: 'Poiret One', cursive;
-    /* border: 1px solid black; */
     width: 70%;
     position: relative;
     left: 10%;
+    margin: 0;
 }
 .main-me p:nth-child(2){
 
     font-family: 'Reem Kufi Ink', sans-serif;
     color: #B1B2FF;
-    /* border: 1px solid black; */
     font-size: 30px;
     width: 70%;
     position: relative;
     left: 10%;
+    margin: 0;
 }
 .main-me p:nth-child(3){
     font-family: 'Poiret One', cursive;
     position: relative;
     left: 10%;
     width: 70%;
+    margin: 0;
 
 }
 .myjourney h2{
-    /* border: 1px solid black; */
+
     height: 50px;
     display: flex;
     justify-content: center;
@@ -67,7 +67,8 @@ html{
 }
 .about-me{
     /* border: 1px solid black; */
-    margin: 20px;
+    /* margin: 10px ; */
+    width: 90%;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #B1B2FF;
@@ -82,7 +83,7 @@ html{
     text-decoration: underline;
 }
 .zs h4,.ce h4 {
-    margin: 20px;
+    margin: 20px 0px;
     text-decoration:none;
     color: inherit;
 
@@ -102,8 +103,10 @@ html{
     margin: auto;
 
 }
+
 .ce p{
-    margin: 10px 20px;
+    margin: 0px;
+    width: 50%;
 
 }
 
