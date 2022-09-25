@@ -2,8 +2,6 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    /* background-color: red; */
-    /* border: 1px soild black; */
 }
 html{
     background-color: #EEF1FF;
@@ -66,8 +64,6 @@ html{
     
 }
 .about-me{
-    /* border: 1px solid black; */
-    /* margin: 10px ; */
     width: 90%;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -83,17 +79,15 @@ html{
 .job-title1{
     text-decoration: underline;
 }
-.zs h4,.ce h4 {
+.zs h4,.ce h4 , .zs h4 > a {
     margin: 20px 0px;
     text-decoration:none;
-    color: inherit;
+    color: #87A2FB;
+    font-family: 'Reem Kufi Ink', sans-serif;
 
 }
-.zs a{
-    color: inherit;
-    text-decoration: inherit;
-}
-.zs a:focus{
+
+.zs a:focus, .zs a:hover{
     color: black;
 }
 .whatilearning{
@@ -120,7 +114,7 @@ html{
 
 }
 .main-out{
-    width:100%;
+    width:100vw;
     height: 75vh;
     border-bottom: 5px dashed #B1B2FF;
     /* position: relative; */
@@ -173,12 +167,12 @@ html{
 
 
 .main-out img{
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
     position: absolute;
     left: 10%;
-    top: calc(50% - 250px);
+    top: calc(50% - 15vw);
     opacity: 0.9;
     border: 10px #B1B2FF solid;
     transition: 0.5s transform 0.1s;
@@ -204,6 +198,8 @@ html{
 .about-me{
     font-family: 'Poppins', sans-serif;
     margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 600;
 }
 .myjourney a{
     color: #AAC4FF;
