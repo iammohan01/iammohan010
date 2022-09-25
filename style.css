@@ -104,6 +104,10 @@ html{
     width: 50%;
 
 }
+.ce p a{
+    font-family: 'Reem Kufi Ink', sans-serif;   
+    color: rgba(0, 0, 0, 0.318);
+}
 
 @media (min-width:500px){
 
